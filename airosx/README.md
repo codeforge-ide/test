@@ -31,6 +31,18 @@ AIROX is a next-generation, general-purpose operating system designed from the g
 - `logger.py` — Logging and error handling.
 - `utils.py` — Utility functions/helpers.
 - `app.py` — Main entry, simulating boot, device discovery, and core services.
+- `arvr.py` — Augmented Reality and Virtual Reality subsystem: AR/VR device management, scene rendering, and spatial computing.
+- `power.py` — Power management: battery, energy-saving, device sleep/wake.
+- `update.py` — System update and patch management.
+- `telemetry.py` — Telemetry, analytics, and remote diagnostics.
+- `haptics.py` — Haptic feedback and tactile device management.
+- `voice.py` — Voice assistant and speech interface subsystem.
+- `bluetooth.py` — Bluetooth and wireless peripheral management.
+- `camera.py` — Camera and vision device abstraction.
+- `bios.py` — Bootloader/BIOS abstraction for hardware initialization.
+- `virtualization.py` — Virtual machine/container management.
+- `marketplace.py` — App/package marketplace and distribution.
+- `policy.py` — Policy engine for compliance, parental controls, etc.
 
 ---
 
@@ -39,8 +51,9 @@ AIROX is a next-generation, general-purpose operating system designed from the g
 - **Real-Time:** Deterministic scheduling and device control for robotics.
 - **Event-Driven:** IPC, device, and AI events drive system behavior.
 - **Security-First:** Sandboxing, permissions, and monitoring at every layer.
-- **AI/Robotics Integration:** Native support for ML models, sensor fusion, and control loops.
+- **AI/Robotics/AR/VR Integration:** Native support for ML models, sensor fusion, control loops, and immersive computing.
 - **Distributed:** Built-in support for clustering, remote procedure calls, and distributed AI.
+- **Extreme Modularity:** Every subsystem (including AR/VR) can be tweaked, replaced, extended, or removed, enabling custom OS builds for any domain (robotics, AR glasses, cloud, etc.).
 
 ---
 
